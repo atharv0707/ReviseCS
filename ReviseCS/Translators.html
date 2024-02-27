@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleSheet.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="topnav">
+    <a class="active" href="index.html">
+        <img id="logo" src="logo2.jpg" alt="logo">
+    </a>
+    <div class="dropdown">
+        <a onclick="myFunction()" class="dropbtn button">Contents</a>
+        <div id="myDropdown" class="dropdown-content custom-dropdown1">
+            <a class="button drop-button" href="Fundamentals-of-programming.html">Fundamentals of Programming</a>
+            <a class="button drop-button" href="Fundamentals-of-data-structures.html">Fundamentals of Data Structures</a>
+            <a class="button drop-button" href="Fundamentals-of-algorithms.html">The Fundamentals of Algorithms</a>
+            <a class="button drop-button" href="Fundamentals-of-computation.html">Fundamentals of Computations</a>
+            <a class="button drop-button" href="Fundamentals-of-data-representations.html">Fundamentals of Data Representations</a>
+            <a class="button drop-button" href="Fundamentals-of-computer-system.html">Fundamentals of Computer System</a>
+            <a class="button drop-button" href="Fundamentals-of-computer-organisation-and-architecture.html">Fundamentals of Computer Organisation and Architecture</a>
+            <a class="button drop-button" href="Consequences-of-uses-computing.html">Consequences of Uses Computing</a>
+            <a class="button drop-button" href="Fundamentals-of-communications-and-networking.html">Fundamentals of Communications and Networking</a>
+            <a class="button drop-button" href="Fundamentals-of-databases.html">The Fundamentals of Databases</a>
+            <a class="button drop-button" href="Fundamentals-of-databases.html">The Fundamentals of Big Data</a>
+            <a class="button drop-button" href="Fundamentals-of-functional-programming.html">Fundamentals of Functional Programming</a>
+            <a class="button drop-button" href="Systematic-approach-to-problem-solving.html">Systematic Approach to Problem Solving</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a onclick="myFunction2()" class="dropbtn button">Specification</a>
+        <div id="myDropdown2" class="dropdown-content custom-dropdown2">
+            <a class="button drop-button" href="spec.html"> AQA A Level Computer Specification 2015</a>
+        </div>
+    </div>
+
+    <div>
+        <div class="dropdown">
+            <a onclick="myFunction3()" class="dropbtn button">Past Papers</a>
+            <div id="myDropdown3" class="dropdown-content custom-dropdown3">
+                <a class="button drop-button" href="pp2021.html">Computer Science AQA 2021</a>
+                <a class="button drop-button" href="pp2022.html">Computer Science AQA 2022</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<hr>
+    <div class="pageContents">
+
+    <h1>Types of Program Translators</h1>
+    <p>Program translators are essential components in the software development process, responsible for converting high-level programming languages into machine-readable code. AQA A Level Computer Science syllabus emphasizes understanding the roles of three main types of program translators: assembler, compiler, and interpreter.</p>
+    <h4>Assembler</h4>
+    <ul>
+        <li>The <strong>assembler</strong> is a program translator that converts assembly language code into machine code. Assembly language is a low-level programming language specific to a particular computer architecture. Assemblers are crucial for translating human-readable assembly code into the binary language that the computer's CPU can execute directly.</li>
+    </ul>
+    <h4>Compiler</h4>
+    <ul>
+        <li>A <strong>compiler</strong> is a program translator that translates the entire high-level source code into machine code before execution. This process, called compilation, results in the creation of an executable file. Compilers are known for their ability to detect errors in the entire program before execution, providing efficient and optimized machine code.</li>
+    </ul>
+    <h4>Interpreter</h4>
+    <ul>
+        <li>An <strong>interpreter</strong> translates high-level source code into machine code line by line during program execution. Unlike compilers, interpreters do not produce a separate executable file. They are advantageous for debugging, as errors can be identified and corrected on-the-fly.</li>
+    </ul>
+    <h4>Compilation vs. Interpretation</h4>
+    <ul>
+        <li>Understanding the differences between <strong>compilation and interpretation</strong> is crucial. Compilation involves translating the entire source code into machine code before execution, resulting in an executable file. Interpretation, on the other hand, translates code line by line during runtime without creating a standalone executable.</li>
+        <li>Situations in which <strong>compilation is appropriate</strong> include scenarios where performance optimisation is critical, as compiled code tends to be faster. Interpretation is suitable when flexibility and ease of debugging are priorities, as errors can be identified and corrected in real-time.</li>
+    </ul>
+    <h4>Intermediate Language (Bytecode)</h4>
+    <ul>
+        <li>Some compilers produce an <strong>intermediate language such as bytecode</strong> as the final output. Bytecode is a low-level, platform-independent representation of the source code. It is subsequently used by an interpreter, called a virtual machine, which executes the program. This approach allows for cross-platform compatibility without the need for recompilation.</li>
+    </ul>
+    <h4>Source and Object Code</h4>
+
+    <p>Understanding the <strong>difference between source and object (executable) code</strong> is fundamental. Source code is the human-readable version of the program written in a high-level language. Object code, also known as executable code, is the machine-readable output generated by the compiler or assembler.</p>
+    </div>
+    <iframe class="videos2" width="560" height="315" src="https://www.youtube.com/embed/GAHQ0bdrYTY" frameborder="0" allowfullscreen></iframe>
+<footer>
+    <p class = "footer">&copy All Rights Reserved 2023</p>
+    <p class = "footer">Author: Atharv Tiwari<br>
+        <a class = "footer" href="mailto:18tiwaria@gravesendgrammar.com">18tiwaria@gravesendgrammar</a></p>
+</footer>
+
+</body>
+</html>
